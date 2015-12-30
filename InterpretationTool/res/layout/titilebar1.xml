@@ -1,0 +1,27 @@
+   
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#1DC4E7"
+ 
+     >
+     <ImageView android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="0dp"
+         android:src="@drawable/interpre_icon"/>
+     <TextView android:layout_width="wrap_content"
+         android:layout_height="48dip"     
+         android:paddingTop="20dp"
+         android:text="@string/app_name"
+         android:textColor="#FCFCFC"
+         android:textSize="20sp"/>
+     <TextView android:layout_width="wrap_content"
+         android:layout_height="48dip"     
+         android:paddingTop="20dp"
+         android:text="   published by Samuel Luo"
+         android:textColor="#FCFCFC"
+         android:textSize="12sp"/>
+
+　　
+　　</LinearLayout> 

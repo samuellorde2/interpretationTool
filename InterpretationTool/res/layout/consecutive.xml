@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ 
+     >
+ <ListView
+        android:id="@+id/lvSongs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:cacheColorHint="#00000000"
+        android:background="#CEDDED" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+      android:background="#BBBBBB"
+     >
+     
+     <Button
+        android:id="@+id/recordFile"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="10sp"
+        android:text="check" />
+      <Button
+        android:id="@+id/recordAndStop"
+             android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_margin="0dip"
+              android:background="@drawable/record_start"
+             />
+        <Button
+        android:id="@+id/startStopPlayRecord"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/play" />   
+
+
+
+     <SeekBar
+            android:id="@+id/pbDuration"             
+            style="?android:attr/progressBarStyleHorizontal"   
+            
+            android:layout_width="0dp"
+            android:layout_marginTop="20dip"
+            android:layout_height="10dip"
+            android:layout_marginBottom="0dip" 
+            android:layout_weight="8"                     
+            android:maxHeight="1dip"
+            android:minHeight="1dip"           
+            android:progressDrawable="@drawable/progress_style"
+            android:thumbOffset="0dip"            
+            android:thumb="@drawable/seekbar_thumb"/>  
+          
+        </LinearLayout>     
+<LinearLayout
+        android:layout_width="match_parent"
+        android:background="#BBBBBB"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/btnDetail"
+             android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:layout_margin="0dip"
+              android:background="@drawable/interpre_icon"
+                      android:layout_marginTop="20dip"
+             />
+    
+     <TextView
+            android:id="@+id/tvCurrentMusic1"
+            android:layout_width="150dp"
+            android:layout_height="32dip"
+            android:textColor="#ff000000"
+            />
+    
+    
+        <Button
+            android:id="@+id/btnStartStop"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/play"     />
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/forward" />
+
+             <Button
+        android:id="@+id/input"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/input"
+        android:layout_marginTop="0dip"
+        android:layout_marginLeft="10dip"/>
+ 
+ </LinearLayout>
+
+</LinearLayout>

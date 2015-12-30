@@ -1,0 +1,48 @@
+
+
+   
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    tools:context="${relativePackage}.${activityClass}" >
+
+
+
+       <Button
+        android:id="@+id/EtoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="118dp"
+        android:onClick="EtoC"
+        android:text="英译汉" />
+    
+      <Button
+        android:id="@+id/CtoE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EtoC"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="20dp"
+        android:text="汉译英" />
+      
+        <Button
+        android:id="@+id/resourceslist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CtoE"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="20dp"
+        android:text="资源目录" />
+        
+       <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resourceslist"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="20dp"
+        android:text="返回" />
+</RelativeLayout>
